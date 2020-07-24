@@ -26,14 +26,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+forEach adjusts are arrays or puts things into an empty array. .map creates a brand new array to put info into.
 
 2. Explain the difference between a callback and a higher order function.
+My personal favorite way to explain the difference was something I found on StackOverflow
+"A higher-order function is a function that takes another function(s) as an argument(s) and/or returns a function to its callers.
+
+A callback function is a function that is passed to another function with the expectation that the other function will call it."
 
 3. What is closure?
+A function nested within a function that can reach out but not reach in.
 
 4. Describe the four rules of the 'this' keyword.
+1.  Window/Global Object Binding: when the global scope of the 'This' value is the window/console.
+2. Implicit Binding: whenever a predecding dot calls a function. It's the item before the dot.
+3. New binding: Whenever we have to use a constructer function. 'This' would refer to the object that's being created then put back into the constructer.
+4. Explicit binding: Whenever we use the .call or .apply method.
 
 5. Why do we need super() in an extended class?
+So the new class will inherit the parents attributes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -69,12 +80,12 @@ This challenge takes a look at closures as well as scope.
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [X] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [X] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -86,8 +97,6 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
-
-
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete after receiving your pull-request
