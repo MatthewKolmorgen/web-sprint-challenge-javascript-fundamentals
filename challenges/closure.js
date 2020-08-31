@@ -17,8 +17,19 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+// Because it's defined in the parents scope.
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function summation(num1){
+  let counter = 0;
+
+  for(let i = 0; i <= num1; i++) {
+    counter += i;
+  }
+  return counter;
+}
+
+console.log(summation(4))
